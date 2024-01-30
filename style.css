@@ -1,0 +1,42 @@
+body{
+    display:grid;
+    background-image: radial-gradient(yellow, beige);
+    place-items:center;
+}
+.togglebody{
+    background-color:black;
+    background-image:
+        radial-gradient(white, rgb(14, 14, 14) 2px, transparent 40px),
+        radial-gradient(white, rgb(14, 14, 14) 1px, transparent 30px),
+        radial-gradient(white, rgb(14, 14, 14) 2px, transparent 40px),
+        radial-gradient(white, rgb(14, 14, 14) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+.moon{
+    height: 10rem;
+    width: 10rem;
+    background-color: rgba(255, 255, 255, 0.733);
+    border-radius: 50%;
+    box-shadow: 2px 2px 20px rgba(255, 255, 255, 0.733), 2px 2px 20px rgba(255, 255, 255, 0.733);
+    margin: 100px;
+}
+.sun{
+    height: 10rem;
+    width: 10rem;
+    background-color: rgba(255, 187, 0, 0.952);
+    box-shadow: 2px 2px 20px yellow, 2px 2px 20px yellow;
+    border-radius: 50%;
+    margin: 100px;
+}
+#switch{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color: red;
+    text-align: center;
+    font-size: larger;
+    font-family:cursive;
+    font-weight: 700;
+    margin: 100px;
+}
