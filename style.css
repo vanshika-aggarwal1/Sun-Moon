@@ -16,7 +16,7 @@ body{
 .moon{
     height: 10rem;
     width: 10rem;
-    background-color: rgba(255, 255, 255, 0.733);
+    background-color: rgba(255, 255, 255);
     border-radius: 50%;
     box-shadow: 2px 2px 20px rgba(255, 255, 255, 0.733), 2px 2px 20px rgba(255, 255, 255, 0.733);
     margin: 100px;
